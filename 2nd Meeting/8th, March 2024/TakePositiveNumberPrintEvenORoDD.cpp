@@ -9,10 +9,10 @@ int main(){
     cin>>a;
 
     if(a%2==0){
-        cout<<"The Number is "<<a<<"Even";
+        cout<<"The Number "<<a<<" is Even";
     }
     else{
-        cout<<"The Number is " <<a <<"Odd";
+        cout<<"The Number " <<a <<" is Odd";
     }
 return 0;
 }
