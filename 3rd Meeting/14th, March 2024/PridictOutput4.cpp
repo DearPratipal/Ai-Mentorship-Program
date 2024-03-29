@@ -26,3 +26,6 @@ while (t /= 2) {
 cout << "Hello" << endl;
 }
 }
+
+
+//Print Factorial Times Checking Numbers
