@@ -1,0 +1,5 @@
+/* Print the alphaber square pattern
+A B C D 
+A B C D
+A B C D
+A B C D */
