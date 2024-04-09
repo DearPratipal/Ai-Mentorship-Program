@@ -4,17 +4,19 @@
 using namespace std;
 int main()
 {
-    int n;
-    cout << "enter the number till which you want to get fibonacci:";
-    cin >> n;
+    int num;
+    cout << "Enter the Terms You want to Find: ";
+    cin >> num;
     int a = 0, b = 0, fibonacci = 1;
-    for (int i = 1; i < n; i++)
+    //fibonacci mean addition of series number
+
+    for (int i = 1; i < num; i++)
     {
         int dabba = fibonacci;
         fibonacci = fibonacci + b;
         a = b;
         b = dabba;
     }
-    cout << "the " << n << "th fibonacci number is :" << fibonacci;
+    cout << "The " << num << "th fibonacci number is :" << fibonacci;
     return 0;
 }

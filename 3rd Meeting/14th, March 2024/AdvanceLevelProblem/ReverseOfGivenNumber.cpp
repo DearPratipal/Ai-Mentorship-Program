@@ -9,5 +9,7 @@ int main(){
     cout<<"Reverse of a given number : ";
     cin>>n;
 
+    
+
     return 0;
 }
